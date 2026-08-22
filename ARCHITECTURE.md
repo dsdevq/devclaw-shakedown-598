@@ -23,7 +23,7 @@ Six bash scripts form the runtime of speckit:
 
 ### `.specify/templates/` — Markdown templates
 
-Four templates define the shape of each SDD artifact:
+Five templates define the shape of each SDD artifact:
 
 | File | Produces |
 |---|---|
@@ -31,6 +31,7 @@ Four templates define the shape of each SDD artifact:
 | `plan-template.md` | `specs/<feature>/plan.md` — technical context, constitution check, phase-by-phase implementation plan |
 | `tasks-template.md` | `specs/<feature>/tasks.md` — ordered task list with acceptance criteria |
 | `checklist-template.md` | Ad-hoc review checklists |
+| `constitution-template.md` | `.specify/memory/constitution.md` — blank constitution scaffold for recording core engineering principles |
 
 ### `.specify/workflows/` — Workflow definitions
 
